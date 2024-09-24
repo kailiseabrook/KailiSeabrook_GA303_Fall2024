@@ -2,18 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Week2Script4 : MonoBehaviour
+public class DetectEntry : MonoBehaviour
 {
+    public string message = "";
+
     // Start is called before the first frame update
-    public string theAnts;
     void Start()
     {
-        Debug.Log(theAnts);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider otherObject)
+    {
+        Debug.Log(message);
     }
 }

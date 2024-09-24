@@ -6,8 +6,7 @@ public class Week2Script3 : MonoBehaviour
 {
     public Week2Script4 otherScript;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         Ants();
     }
