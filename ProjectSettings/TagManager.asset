@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Door
   - EnemyProjectile
+=======
+  - Coin
+>>>>>>> 937c16993d8b997ec9d4f87de3ecc1e26149ac74
   layers:
   - Default
   - TransparentFX
